@@ -1,0 +1,20 @@
+{
+  "name": "jsstd",
+  "version": "0.0.1",
+  "description": "Takes the stin, concats with the first parameter and eval the result",
+  "main": "./bin/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "jsstd": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "get-stdin": "^6.0.0",
+    "prettyjson": "^1.2.1"
+  }
+}
