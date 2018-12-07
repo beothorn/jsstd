@@ -1,10 +1,12 @@
 # Jsstd
 
 A tool for running js code from concatenated stdin and parameters.
-If you want to process a json from the command-line you can use vanilla javascript. 
+If you want to process a json from the command-line you can use vanilla javascript.
 
-```javascript
-curl -s "https://api.github.com/repos/toddmotto/public-apis/issues?state=closed" | jsstd -p -e ".map(i => i.user.login).filter(u => u.startsWith('i'))"	
+```
+#Picachu moves starting with s
+curl -s 'https://pokeapi.co/api/v2/pokemon/pikachu/' | \
+  jsstd -e ".moves.map(m=>m.move.name).filter(n=>n.startsWith('s'))"
 ```
 
 To install clone this repo and execute
