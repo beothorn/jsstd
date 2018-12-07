@@ -1,6 +1,7 @@
 # Jsstd
 
 A tool for running js code from concatenated stdin and parameters.
+
 If you want to process a json from the command-line you can use vanilla javascript.
 
 ```
